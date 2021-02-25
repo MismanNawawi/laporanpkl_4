@@ -1,0 +1,396 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+nav{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	padding: 10px;
+	justify-content: space-between;
+	display: flex;
+	/*background-color: lightblue;
+*/}
+
+nav .navbar{
+	color: green;
+
+}
+
+nav ul{
+	list-style: none;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+nav ul li a:hover{
+	background-color:  mediumseagreen;
+	border-radius: 15px;
+	color: black;
+}
+
+nav ul li button{
+	padding: 5px;
+	border-radius: 10px;
+	border: 0;
+	cursor: pointer;
+	background-color: mediumseagreen;
+}
+.loby-satu{
+	width: 100%;
+	/*background-color: lightblue;*/
+	display: flex;
+	justify-content: center;
+}
+.loby-satu .teks-satu{
+	width: 40%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	/*background-color: lightblue;*/
+}
+.teks-satu input{
+	width: 250px;
+	height: 35px;
+	border-radius: 15px;
+	border: 0;
+	box-shadow: 0 0 5px #888;
+}
+.teks-satu button{
+	padding: 10px;
+	border-radius: 15px;
+	border: 0;
+	background-color: #39e600;
+	margin-left: -60px;
+	box-shadow: 5px 0 5px #888;
+	cursor: pointer;
+}
+.loby-satu .foto-satu{
+	width: 55%;
+	border-radius: 15px;
+	overflow: hidden;
+
+}
+.loby-dua .teks-dua{
+	text-align: center;
+}
+.loby-dua .foto-dua{
+	padding: 50px 0;
+	margin: auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+}
+.teks-dua h5{
+	text-align: center;
+	color: green;
+}
+.teks-dua p{
+	padding: 10px;
+}
+.foto-dua .ft1{
+	width: 16%;
+	text-align: center;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.foto-dua .ft2{
+	width: 16%;
+	text-align: center;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.foto-dua .ft3{
+	width: 16%;
+	text-align: center;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.loby-tiga{
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.loby-tiga .teks{
+	width: 44%;
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	flex-direction: column;
+}
+.loby-tiga .btn{
+	width: 38%;
+	height: 40px;
+	display: flex;
+	justify-content: flex-end;
+}
+.btn button{
+	padding: 0 10px;
+	border-radius: 50%;
+	font-size: 20px;
+	border: 0;
+	cursor: pointer;
+	background-color: #1aff1a;
+	margin-left: 95px;
+}
+.loby-empat{
+	margin: auto;
+	padding: 30px 0;
+	width: 95%;
+	display: flex;
+	/*background-color: re;*/
+	justify-content: space-between;
+}
+.loby-empat .wer-satu{
+	width: 20%;
+	height: 250px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-shadow: 0 0 5px black;
+	border-radius: 10px;
+	/*background-color: red;*/
+
+}
+.wer-satu img{
+	width: 80%;
+}
+.wer-satu p{
+
+}
+.loby-empat .wer-dua{
+	width: 20%;
+	height: 250px;
+	text-align: center;
+	box-shadow: 0 0 5px black;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.wer-dua img{
+	width: 80%;
+}
+.loby-empat .wer-tiga{
+	width: 20%;
+	height: 250px;
+	text-align: center;
+	box-shadow: 0 0 5px black;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.wer-tiga img{
+	width: 80%;
+}
+.loby-empat .wer-empat{
+	width: 20%;
+	height: 250px;
+	text-align: center;
+	box-shadow: 0 0 5px black;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.wer-empat img{
+	width: 80%;
+}
+.loby-lima{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 0;
+}
+.loby-lima .foto-satu{
+	width: 55%;
+}
+.loby-lima .foto-satu img{
+	width: 100%;
+}
+.loby-lima .teksSatu{
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.bt{
+	color: green;
+	font-size: 9px;
+}
+.loby-enam{
+	width: 100%;
+	height: 280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.loby-enam .judul{
+	width: 75%;
+}
+.loby-enam .testy{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.testy .testimoni-satu{
+	width: 250px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	box-shadow: 0 0 5px black;
+	padding: 10px;
+	box-sizing: border-box;
+	justify-content: space-around;
+}
+
+.testy .testimoni-dua{
+	width: 250px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	box-shadow: 0 0 5px black;
+	padding: 10px;
+	box-sizing: border-box;
+	justify-content: space-around;
+}
+
+.testy .testimoni-tiga{
+	width: 250px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	box-shadow: 0 0 5px black;
+	padding: 10px;
+	box-sizing: border-box;
+	justify-content: space-around;
+}
+.profil{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.profil .circle{
+	border-radius: 50%;
+	width: 70px;
+	height: 70px; 
+	overflow: hidden;
+	box-shadow: 0 0 2px black;
+
+}
+.profil p{
+	width: 65%;
+	padding: 7px 0 0 0;
+}
+.circle.satu img{
+	margin-left: -85px;
+}
+.circle.dua img{
+	margin-left: -20px;
+}
+.loby-tujuh{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.loby-tujuh{
+	padding: 50px 0;
+	box-sizing: content-box;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.loby-tujuh h2{
+	font-size: 30px;
+}
+.loby-tujuh .partner{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+} 
+.loby-tujuh .partner ul{
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+.partner ul a{
+	width: 25%;
+}
+.loby-delapan{
+	padding: 30px 0 40px 0;
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.word-satu .mainn h2{
+	font-size: 30px;
+	padding: 0 0 20px 0;
+}
+.word-satu .mainn p{
+	padding: 10px 0;
+} 
+.word-satu .input input{
+	width: 90%;
+	height: 30px;
+	border-radius: 15px;
+	border: 0;
+	box-shadow: 0 0 3px black;
+}
+.word-satu .input button{
+	padding: 8px;
+	background-color: #009900;
+	color: white;
+	border: 0;
+	border-radius: 15px;
+	box-shadow: 0 0 3px black;
+	margin-left: -40px;
+}  
+.loby-delapan .word-satu{
+	width: 25%;
+}
+.loby-delapan .word{
+	width: 15%;
+	text-align: center;
+	height: 170px;
+}
+.loby-delapan .word a{
+	text-decoration: none;
+	color: black;
+}
+.loby-delapan .word p{
+
+	padding: 5px 0
+}
